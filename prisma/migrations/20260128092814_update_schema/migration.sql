@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Paste" ALTER COLUMN "expiresAt" DROP NOT NULL,
+ALTER COLUMN "expiresAt" DROP DEFAULT;

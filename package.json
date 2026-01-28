@@ -1,0 +1,25 @@
+{
+  "name": "pastebin-lite",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pastebin-lite service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "escape-html": "^1.0.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0",
+    "nodemon": "^3.1.11"
+  }
+}
