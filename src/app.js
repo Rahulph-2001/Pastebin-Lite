@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import { PrismaClient } from '@prisma/client'
+import { prisma } from './lib/prisma.js'
 import { healthRoute } from './routes/health.js'
 import { pasteRoutes } from './routes/pastes.js'
 import { viewRoutes } from './routes/view.js'
@@ -11,7 +11,6 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const app = express()
-const prisma = new PrismaClient()
 
 app.use(cors())
 app.use(express.json())

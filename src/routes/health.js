@@ -1,4 +1,4 @@
-import { prisma } from "../app.js";
+import { prisma } from "../lib/prisma.js";
 
 export function healthRoute(app) {
   app.get("/api/healthz", async (_req, res) => {

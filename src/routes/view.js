@@ -1,4 +1,4 @@
-import { prisma } from '../app.js'
+import { prisma } from '../lib/prisma.js'
 import { now } from '../utils/time.js'
 import escapeHTML from 'escape-html'
 
