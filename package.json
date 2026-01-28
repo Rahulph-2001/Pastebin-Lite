@@ -7,8 +7,10 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "build": "prisma generate",
-    "vercel-build": "prisma generate"
+    "build": "prisma generate"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "keywords": [],
   "author": "",
